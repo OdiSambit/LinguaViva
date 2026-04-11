@@ -26,3 +26,31 @@
 - Reason: Incorrect repository URL (case sensitivity issue)
 - Solution: Corrected remote URL with proper casing
 - Learning: GitHub URLs are case-sensitive
+
+## 📅 Day 1 – Environment Setup & Debugging
+
+### 🔴 Problems Faced
+
+* Java incorrectly configured (`E:\bin\java.exe`)
+* JDK 20 conflict
+* PATH variable issues
+* Maven not recognized
+
+### 💡 Solutions
+
+* Removed wrong Java path
+* Deleted JDK 20 manually
+* Cleaned environment variables
+* Installed JDK 17 properly in:
+  E:\Java\jdk-17
+
+### 🎯 Outcome
+
+* Clean Java setup
+* System ready for backend development
+
+### 🧠 Key Learning
+
+* Importance of environment variables (PATH, JAVA_HOME)
+* Always use LTS versions (JDK 17)
+* Debugging setup issues is critical in development
